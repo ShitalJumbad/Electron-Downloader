@@ -9,7 +9,7 @@ The will-download event returns the item which is going to be downloaded. This i
 
 ```bash
 # Clone this repository
-git clone 
+git clone https://github.com/ShitalJumbad/Electron-Downloader.git
 # Go into the repository
 cd electron-downloader
 # Install dependencies
