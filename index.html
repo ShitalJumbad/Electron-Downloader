@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+  </head>
+  <body class="container">
+    <h3>Driver</h3>
+    <div style="border-style: solid;padding: 20px;">
+      
+      <button id="myButton">Download 1</button>
+      <button id="cancelButton">Cancel</button>
+      <button id="pauseButton">Pause</button>
+      <button id="resumeButton">Resume</button>
+      <button id="resumeOldButton">Resume Old</button>
+      <div class="w3-light-grey prog">
+        <div id="myBar" class="w3-grey" style="height:18px;width:0; color: #8f8d89;"></div>
+      </div>
+      <div class="local-container" style="display: flex; height: 50px;">
+        <div style="width: 30%;">
+          Download Progress(%)
+          <div id="percent">0</div>
+        </div>
+        <div style="flex-grow: 1; ">
+          Speed (MB/Sec)
+          <div id="speed">0</div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+    <div style="border-style: solid;padding: 20px; margin-top: 20px;">
+      <button id="myButton2">Download 2</button>
+      <button id="cancelButton2">Cancel</button>
+      <button id="pauseButton2">Pause</button>
+      <button id="resumeButton2">Resume</button>
+      <div class="w3-light-grey prog">
+        <div id="myBar2" class="w3-grey" style="height:18px;width:0;"></div>
+      </div>
+      <div class="local-container" style="display: flex; height: 50px;">
+        <div style="width: 30%;">
+          Download Progress(%)
+          <div id="percent2">0</div>
+        </div>
+        <div style="flex-grow: 1; ">
+          Speed (MB/Sec)
+          <div id="speed2">0</div>
+        </div>
+    </div>
+  </div>
+    
+    
+    <div style="border-style: solid;padding: 20px; margin-top: 20px;">
+      <button id="myButton3">Download 3</button>
+      <button id="cancelButton3">Cancel</button>
+      <button id="pauseButton3">Pause</button>
+      <button id="resumeButton3">Resume</button>
+      <div class="w3-light-grey prog">
+        <div id="myBar3" class="w3-grey" style="height:18px;width:0"></div>
+      </div>
+      <div class="local-container" style="display: flex; height: 50px;">
+        <div style="width: 30%;">
+          Download Progress(%)
+          <div id="percent3">0</div>
+        </div>
+        <div style="flex-grow: 1; ">
+          Speed (MB/Sec)
+          <div id="speed3">0</div>
+        </div>
+    </div>
+  </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script> 
+  </body>
+</html>

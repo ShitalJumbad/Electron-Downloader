@@ -1,0 +1,25 @@
+{
+  "name": "electron-downloader",
+  "version": "1.0.0",
+  "description": "A minimal Electron application for downloading",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Shital Jumbad",
+  "license": "",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^13.1.7",
+    "electron-dl": "^3.2.1",
+    "electron-store": "^8.0.0"
+  }
+}

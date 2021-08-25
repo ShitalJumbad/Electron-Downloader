@@ -1,0 +1,17 @@
+body{
+    background-color: #ebe8de;
+    margin: 10px;
+}
+
+.container{
+    margin: 10px;
+}
+.prog{  
+    margin-top: 6px;
+    height:18px;
+    width:50;
+}
+
+.bar-color{
+    color: #8f8d89;
+}
